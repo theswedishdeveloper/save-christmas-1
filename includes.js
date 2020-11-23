@@ -1,9 +1,18 @@
 
-function includes(arr, item) {
+/*function includes(arr, item) {
     // for all i from 0 to arr.length - 1
     //      if arr[i] is equal to item, return true
 
     // no match was found, return false
+}*/
+
+function includes(arr, item) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i].toLowerCase() === item.toLowerCase()) {
+            return true
+        }
+    }
+    return false
 }
 
 const items = [

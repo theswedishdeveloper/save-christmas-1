@@ -6,6 +6,12 @@ function map(arr, func) {
     //      newArray[j] = func(arr[j])
 
     // returnera den nya arrayen
+
+    let newArray = [arr.length]
+    for (let i = 0; i < arr.length; i++) {
+        newArray[i] = func(arr[i])
+    }
+    return newArray
 }
 
 // Test 1
