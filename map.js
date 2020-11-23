@@ -30,3 +30,7 @@ console.log(stringArray)    // ['boll', 'häst', 'flygplan']
 
 // Test 3 - GÖR ETT EGET TEST HÄR
 console.log('\nTEST 3')
+const nameArray = ['kAlle', 'NiSSe', 'BerT']
+const newNameArray = map(nameArray, str => (str.charAt(0).toUpperCase() + str.slice(1).toLowerCase()))
+console.log(nameArray)
+console.log(newNameArray)  
