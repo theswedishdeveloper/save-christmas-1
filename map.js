@@ -1,6 +1,6 @@
 
 function map(arr, func) {
-    const newArray = [arr.length]
+    const newArray = new Array(arr.length)
     for (let i = 0; i < arr.length; i++) {
         newArray[i] = func(arr[i])
     }
